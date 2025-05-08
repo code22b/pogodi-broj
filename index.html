@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pogodi Broj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pogodi broj!</h1>
+        <p>Računalo je odabralo broj između 1 i 100. Pokušaj ga pogoditi!</p>
+        <input type="number" id="guess" min="1" max="100">
+        <button onclick="checkGuess()">Pogodi</button>
+        <p id="message"></p>
+        <p>Pokušaji: <span id="attempts">0</span></p>
+        <p>Najbolji rezultat: <span id="highscore">-</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
